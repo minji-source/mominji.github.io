@@ -1,0 +1,90 @@
+*{margin:0; padding:0; list-style:none;
+    font-size:16px;
+    font-family: 'Noto Sans KR', 'Roboto';
+    color:black;}
+
+a{display:block;
+    text-decoration:none;
+    color:inherit;}
+
+h1, h2, h3, h4, h5, h6{color:inherit;
+    font-size:inherit;}
+
+button{display:block;
+    cursor:pointer;}
+
+.clearfix{
+    display:block;
+    content:"";
+    clear:both;}
+
+.work_box_wrap{
+    width:100%;
+    height:auto;
+}
+
+.work_box{
+    width:50%;
+    height:34vw;
+    float:left;
+    background-position:center center;
+    background-size:cover;
+}
+
+.work_box > a{
+    opacity:0;
+    width:100%;
+    height:20vw;
+    text-align:center;
+    padding-top:14vw;
+    transition:all 0.5s;
+}
+
+.work_box:hover > a{
+    opacity:1;
+}
+
+.work_box > a > p > span{
+    display:block; 
+    font-size:36px; 
+    font-family:'Roboto'; 
+    font-weight:700; 
+    color:white; 
+    letter-spacing:1.4px; 
+    height:3vw;
+}
+
+.work_box > a > p{
+    font-size:16px; 
+    font-family:'Noto Sans KR'; 
+    font-weight:300; 
+    color:white;
+}
+
+.work_box_wrap > .work_box:nth-child(1){
+    background-image:url(../images/thum_nongshim.png);
+}
+.work_box_wrap > .work_box:nth-child(1) > a{
+    background-color:rgba(250,150,0,0.9);
+}
+
+.work_box_wrap > .work_box:nth-child(2){
+    background-image:url(../images/thum_samjin.png);
+}
+.work_box_wrap > .work_box:nth-child(2) > a{
+    background-color:rgba(0,190,140,0.9);
+}
+
+.work_box_wrap > .work_box:nth-child(3){
+    background-image:url(../images/thum_royal.png);
+}
+.work_box_wrap > .work_box:nth-child(3) > a{
+    background-color:rgba(90,0,255,0.9);
+}
+
+.work_box_wrap > .work_box:nth-child(4){
+    background-image:url(../images/thum_calm.png);
+}
+.work_box_wrap > .work_box:nth-child(4) > a{
+    background-color:rgba(0,170,255,0.9);
+}
